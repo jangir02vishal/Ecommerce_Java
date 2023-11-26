@@ -5,7 +5,6 @@ This e-commerce project provides a simple yet effective solution for online shop
 
 https://github.com/jangir02vishal/Ecommerce_Java/assets/136950731/b17bdcd7-5151-4448-b105-939e29ad1d51
 
-
 ## Features
 
 - **Product Search**: Effortlessly find the products you desire through a smart search bar.
