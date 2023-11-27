@@ -3,7 +3,7 @@
 ## Introduction
 This e-commerce project provides a simple yet effective solution for online shopping built with JavaFX, MySQL, and the Java language. This project offers a streamlined user experience with essential features, ensuring a smooth and intuitive shopping journey.
 
-https://github.com/jangir02vishal/Ecommerce_Java/assets/136950731/b17bdcd7-5151-4448-b105-939e29ad1d51
+https://github.com/jangir02vishal/Ecommerce_Java/assets/136950731/d7ce43e0-95fb-4ec3-9688-e888ea6231ac
 
 ## Features
 
