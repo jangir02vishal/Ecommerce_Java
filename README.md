@@ -13,7 +13,7 @@ https://github.com/jangir02vishal/Ecommerce_Java/assets/136950731/d7ce43e0-95fb-
 - **Order Placement**: Keep track of your purchases with the "My Orders" page, where users can view their placed orders.
 - **User Authentication**: Securely log in to the system to access personalized features such as your orders.
 - **Personalized Welcome**: Upon login, a warm welcome greets users in the header bar, displaying their username.
-- **Logout Functionality**: Logout seamlessly, clearing the cart and order pages and returning users to the login page.
+- **Logout Functionality**: Logout seamlessly and returning users to the login page.
 
 ## Technology Stack
 
