@@ -244,6 +244,7 @@ public class UserInterface {
 
                 body.getChildren().addAll(titleLabel, spaceLabel, loginPage);
                 headerBar.getChildren().remove(signInButton);
+                searchBar.clear();
                 footerBar.setVisible(false);
             }
         });
@@ -266,6 +267,7 @@ public class UserInterface {
                 );
                 prodPage.getChildren().add(placeOrderButton);
                 body.getChildren().addAll(titleLabel, prodPage);
+                searchBar.clear();
                 footerBar.setVisible(false);
             }
         });
@@ -282,6 +284,7 @@ public class UserInterface {
                 orderPage.setAlignment(Pos.CENTER);
                 orderPage.setSpacing(10);
                 body.getChildren().addAll(titleLabel, orderPage);
+                searchBar.clear();
                 footerBar.setVisible(false);
             }
         });
@@ -333,6 +336,7 @@ public class UserInterface {
                 body.getChildren().clear();
                 productPage = productList.getAllProducts(); // Update productPage
                 body.getChildren().add(productPage);
+                searchBar.clear();
                 footerBar.setVisible(true);
                 if(loggedInCustomer==null && headerBar.getChildren().indexOf(signInButton)==-1){
                     headerBar.getChildren().add(signInButton);
@@ -393,6 +397,8 @@ public class UserInterface {
                 }else{
                     showDialog("Order failed!!");
                 }
+
+                myOrders.add(product);
             }
         });
 
